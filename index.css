@@ -1,6 +1,12 @@
+@import "header.css";
+
 * {
   box-sizing: border-box;
   padding: 0;
   margin: 0;
   font-family: "Raleway";
+}
+
+body {
+  background-color: #f2f2f2;
 }

@@ -1,0 +1,47 @@
+header {
+  display: flex;
+  flex-direction: column;
+}
+
+header .top {
+  display: flex;
+  align-items: center;
+  padding: 15px 15px 0px 15px;
+  justify-content: space-between;
+}
+
+header .bottom {
+  display: flex;
+  margin-top: 3.5%;
+}
+
+header .bottom a {
+  width: 50%;
+  display: flex;
+  align-items: center;
+  color: #262626;
+  justify-content: center;
+  font-size: 4.1vw;
+  height: 14.3vw;
+  border-bottom: 2.5px solid #cecece;
+}
+
+header .bottom a:hover {
+  border-color: #0065fc;
+  color: #0065fc;
+}
+
+header a {
+  text-decoration: none;
+  color: #0065fc;
+}
+
+header .top #inscription {
+  font-weight: bold;
+  font-size: 3.95vw;
+  margin-top: 3%;
+}
+
+header .top img {
+  width: 26.67vw;
+}
