@@ -6,24 +6,24 @@ header {
 header .top {
   display: flex;
   align-items: center;
-  padding: 15px 15px 0px 15px;
+  padding: 20px 20px 0px 20px;
   justify-content: space-between;
 }
 
 header .bottom {
   display: flex;
-  margin-top: 3.5%;
+  margin-top: 14px;
 }
 
 header .bottom a {
   width: 50%;
   display: flex;
   align-items: center;
-  color: #262626;
+  color: #101010;
   justify-content: center;
-  font-size: 4.1vw;
-  height: 12.5vw;
-  border-bottom: 2.5px solid #cecece;
+  font-size: 15.4px;
+  height:47px;
+  border-bottom: 2.5px solid #f2f2f2;
 }
 
 header .bottom a:hover {
@@ -38,10 +38,10 @@ header a {
 
 header .top #inscription {
   font-weight: bold;
-  font-size: 3.95vw;
-  margin-top: 3%;
+  font-size: 15px;
+  margin-top: 10px;
 }
 
 header .top img {
-  width: 26.67vw;
+  width: 100px;
 }
