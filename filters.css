@@ -1,0 +1,54 @@
+.filters{
+    margin-top:35px;
+    margin-bottom:30px;
+}
+
+.filters h3{
+    margin-left: 3px;
+    font-size:18px;
+    font-weight:bold;
+    margin-bottom: 18px;
+}
+
+ .filtersGroup{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content:space-between;
+    padding-right: 34px;
+}
+
+.filter{
+    width: auto;
+    display: flex;
+    height:50px;
+    align-items:center;
+    justify-content:center;
+    border: 3px solid #d9d9d9;
+    border-radius:30px;
+    margin-bottom:12px;
+}
+
+.filter h4{
+    font-size: 16px;
+    font-weight: bold;
+    margin-right: 15px;
+}
+
+.filter i{
+    color:#0065fc;
+    background-color:#deebff;
+    height:50px;
+    width:50px;
+    border-radius:100%;
+    display: flex;
+    justify-content:center;
+    align-items:center;
+    position: relative;
+    right: 11px;
+    font-size: 18px;
+}
+
+.filter:hover i{
+     color:#deebff;
+    background-color:#0065fc;
+}
