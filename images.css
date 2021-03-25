@@ -1,0 +1,48 @@
+.results .image{
+        background-size: cover;
+    background-position: 50%;
+    background-repeat: no-repeat;
+} 
+
+.results .logement .image{
+    height: 115px;
+    width: 100%;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+}
+
+.results .popular .image{
+    width: 128px;
+    height: 100%;
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
+    margin-right: 20px;
+}
+
+.results .activities .image{
+    height: 134px;
+    width: 100%;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    background-position: 50% 25%;
+}
+
+.vieuxPort{background-image: url('images/activites/4_small/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg');}
+.results .activities .card .fortPomegues{
+    background-image: url('images/activites/4_small/paul-hermann-QFTrLdQIRhI-unsplash.jpg');
+ background-position: 50%;}
+.ilesFrioul{background-image: url('images/activites/4_small/kevin-hikari-rV_Qd1l-VXg-unsplash.jpg');}
+.parcCalangues{background-image: url('images/activites/4_small/kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg');}
+.notreDame{background-image: url('images/activites/4_small/florian-wehde-xW9e8gdotxI-unsplash.jpg');}
+.parcLongchamp{background-image: url('images/activites/4_small/lena-paulin-wH2-EJoDcV0-unsplash.jpg');}
+
+.soleilMatin{background-image: url('images/hebergements/4_small/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg');}
+.coeurEau{background-image: url('images/hebergements/4_small/aw-creative-VGs8z60yT2c-unsplash.jpg');}
+.bleuBlanc{background-image: url('images/hebergements/4_small/febrian-zakaria-sjvU0THccQA-unsplash.jpg');}
+
+.cannebiere{ background-image: url('images/hebergements/4_small/marcus-loke-WQJvWU_HZFo-unsplash.jpg');}
+.port{ background-image: url('images/hebergements/4_small/fred-kleber-gTbaxaVLvsg-unsplash.jpg');}
+.mouettes{ background-image: url('images/hebergements/4_small/reisetopia-B8WIgxA_PFU-unsplash.jpg');}
+.mer{ background-image: url('images/hebergements/4_small/annie-spratt-Eg1qcIitAuA-unsplash.jpg');}
+.panier{ background-image: url('images/hebergements/4_small/nicate-lee-kT-ZyaiwBe0-unsplash.jpg');}
+.amina{ background-image: url('images/hebergements/4_small/febrian-zakaria-M6S1WvfW68A-unsplash.jpg');}
