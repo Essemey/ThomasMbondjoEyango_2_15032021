@@ -4,14 +4,14 @@
     background-repeat: no-repeat;
 } 
 
-.results .logement .image{
+.results #logements .image{
     height: 115px;
     width: 100%;
     border-top-left-radius: 25px;
     border-top-right-radius: 25px;
 }
 
-.results .popular .image{
+.results #popular .image{
     width: 128px;
     height: 100%;
     border-top-left-radius: 25px;
@@ -19,7 +19,7 @@
     margin-right: 20px;
 }
 
-.results .activities .image{
+.results #activities .image{
     height: 134px;
     width: 100%;
     border-top-left-radius: 25px;
@@ -28,7 +28,7 @@
 }
 
 .vieuxPort{background-image: url('images/activites/4_small/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg');}
-.results .activities .card .fortPomegues{
+.results #activities .card .fortPomegues{
     background-image: url('images/activites/4_small/paul-hermann-QFTrLdQIRhI-unsplash.jpg');
  background-position: 50%;}
 .ilesFrioul{background-image: url('images/activites/4_small/kevin-hikari-rV_Qd1l-VXg-unsplash.jpg');}

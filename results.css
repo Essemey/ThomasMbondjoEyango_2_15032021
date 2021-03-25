@@ -6,7 +6,7 @@
 
 .bold{ font-weight: bold}
 
-.results .popular{
+.results #popular{
   background-color: #f2f2f2;
 }
 
@@ -23,11 +23,11 @@
    font-weight:bold;
 }
 
-.results .popular header{
+.results #popular header{
     margin-bottom:30px;
 }
 
-.results .popular header i{
+.results #popular header i{
    font-size:18px;
 }
 
@@ -48,16 +48,16 @@ box-shadow:0px 0px 6px 3px #f5f5f5 ;
    
 }
 
-.results .popular .card{
+.results #popular .card{
     padding: 5px;
     display: flex;
 }
 
-.results .popular .card .description{
+.results #popular .card .description{
   width: 150px;
 }
 
-.results .popular .card .description h3{
+.results #popular .card .description h3{
     font-size:16px;
     font-weight:bold;
     margin-top: 14px;
@@ -69,7 +69,7 @@ box-shadow:0px 0px 6px 3px #f5f5f5 ;
    
 }
 
-.results .popular .card .description p{
+.results #popular .card .description p{
     margin-bottom: 44px;
 }
 
@@ -91,16 +91,16 @@ box-shadow:0px 0px 6px 3px #f5f5f5 ;
    color:#d9d9d9;
 }
 
-.results .logement{
+.results #logements{
     background-color: white;
 }
 
-.results .logement header{
+.results #logements header{
     margin-bottom:23px;
 }
 
 
-.results .logement .card{
+.results #logements .card{
     display: flex;
     flex-direction: column;
      padding: 5px;
@@ -108,12 +108,12 @@ box-shadow:0px 0px 6px 3px #f5f5f5 ;
 }
 
 
-.results .logement .card .description {
+.results #logements .card .description {
     margin-left: 11px;
 }
 
 
-.results .logement .card .description h3{
+.results #logements .card .description h3{
     font-size:16px;
     font-weight:bold;
     margin-top: 11px;
@@ -121,31 +121,31 @@ box-shadow:0px 0px 6px 3px #f5f5f5 ;
 }
 
 
-.results .logement .card .description p{
+.results #logements .card .description p{
     margin-bottom: 11px;
     
 }
 
-.results .logement .more{
+.results #logements .more{
     font-size:18px;
     font-weight:bold;
     margin-top:35px;
 }
 
-.results .activities{
+.results #activities{
     padding-top: 33px;
 }
 
-.results .activities header{
+.results #activities header{
     margin-bottom: 32px;
 }
 
-.results .activities .card{
+.results #activities .card{
     height:190px;
     margin-bottom: 24px;
 }
 
-.results .activities .card h3{
+.results #activities .card h3{
     margin-top: 23px;
     margin-left: 20px;
     font-size:16px;

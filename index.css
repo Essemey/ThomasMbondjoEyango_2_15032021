@@ -1,6 +1,7 @@
 @import "header.css";
 @import "research.css";
 @import "results.css";
+@import "footer.css";
 
 * {
   box-sizing: border-box;

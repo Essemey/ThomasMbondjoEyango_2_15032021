@@ -1,0 +1,33 @@
+footer{
+    background-color: #f2f2f2;
+    padding-top: 50px;
+    padding-left: 30px;
+    padding-bottom: 50px;
+}
+
+footer .category{
+    display:flex;
+    flex-direction: column;
+}
+
+footer .assistance{
+    margin-top:40px;
+}
+
+footer .hebergements{
+    margin-top:30px;
+}
+
+footer h4{
+    font-size:18px;
+    font-weight:bold;
+    margin-bottom:28px;
+}
+
+footer a{
+    font-size:14px;
+    text-decoration:none;
+    color:black;
+    margin-bottom:20px;
+}
+
