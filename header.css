@@ -10,6 +10,10 @@ header .top {
   justify-content: space-between;
 }
 
+header .top h1{
+  height: 46.39px;
+}
+
 header .bottom {
   display: flex;
   margin-top: 14px;
@@ -44,4 +48,10 @@ header .top #inscription {
 
 header .top img {
   width: 100px;
+}
+
+@media all and (min-width: 1440px){
+  header{
+    flex-direction: row;
+  }
 }

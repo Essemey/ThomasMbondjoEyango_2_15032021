@@ -1,16 +1,16 @@
 @import "filters.css";
 
 .research {
-  padding: 32px 0px 40px 20px;
-}
-
-.research h1 {
-  font-weight: bold;
-  font-size: 22.4px;
-  width: 78.7vw;
+  padding: 32px 0px 0px 20px;
 }
 
 .research h2 {
+  font-weight: bold;
+  font-size: 22px;
+  width: 78.7vw;
+}
+
+.research p {
   font-size: 14.2px;
   font-weight: lighter;
   margin-top: 15px;
@@ -27,6 +27,7 @@
 .research .searchInput i{
    height:50px;
   width:50px;
+  min-width: 50px;
   font-size:20px;
   display: flex;
   align-items: center;
@@ -56,6 +57,8 @@
   font-size: 17px;
   position: relative;
   right: 30px;
+  border: none;
+  cursor: pointer;
 }
 
 .research .info{
@@ -80,5 +83,61 @@
 .research .info p{
  font-size: 16px;
  width: 300px;
+}
+
+.research .searchInput .laptop{
+  display: none;
+}
+
+@media all and (min-width: 1440px){
+ 
+  .research{
+    padding-left: 53px;
+  }
+
+  .search{
+    display: none;
+  }
+
+  .research .searchInput {
+    width: 420px;
+}
+ 
+  .research .searchInput .laptop{
+    display: flex;
+       height:50px;
+  font-size:20px;
+  display: flex;
+  align-items: center;
+  justify-content:center;
+  border-radius: 0;
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+  padding: 18px;
+  right: 45px;
+  font-size: 18px;
+  font-weight:bold;
+  }
+
+  .research p{
+    margin-bottom: 22px;
+  }
+
+  .research .searchInput input{
+    min-width: 270px;
+  }
+
+  .research .info p{
+ width: 415px;
+ margin-bottom:36px;
+}
+
+  .research .info i{
+ margin-left: 6px;
+}
+
+
+
+  
 }
 

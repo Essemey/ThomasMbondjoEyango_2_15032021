@@ -1,6 +1,6 @@
 .filters{
     margin-top:35px;
-    margin-bottom:30px;
+    margin-bottom:15px;
 }
 
 .filters h3{
@@ -51,4 +51,24 @@
 .filter:hover i{
      color:#deebff;
     background-color:#0065fc;
+}
+
+
+@media all and (min-width: 1440px){
+ 
+    .filters{
+        display: flex;
+        align-items:center;
+        margin-top: 30px;
+        margin-bottom: 35px;
+  }
+
+  .filters h3{
+      margin-right: 33px;
+     margin-left: 10px;
+  }
+
+  .filters .filtersGroup{
+      width: 845px;
+  }
 }
