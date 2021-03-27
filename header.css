@@ -19,7 +19,11 @@ header .bottom {
   margin-top: 14px;
 }
 
-header .bottom a {
+header .bottom #inscription{
+  display:none;
+}
+
+header .bottom #logements_link, header .bottom #activities_link {
   width: 50%;
   display: flex;
   align-items: center;
@@ -30,7 +34,7 @@ header .bottom a {
   border-bottom: 2.5px solid #f2f2f2;
 }
 
-header .bottom a:hover {
+header .bottom #logements_link:hover, header .bottom #activities_link:hover{
   border-color: #0065fc;
   color: #0065fc;
 }
@@ -40,7 +44,7 @@ header a {
   color: #0065fc;
 }
 
-header .top #inscription {
+header #inscription {
   font-weight: bold;
   font-size: 15px;
   margin-top: 10px;
@@ -53,5 +57,44 @@ header .top img {
 @media all and (min-width: 1440px){
   header{
     flex-direction: row;
+    padding-left: 53px;
+    padding-right: 77px;
+    justify-content:space-between;
   }
+
+  header .top{
+    padding: 0;
+    align-items:flex-end;
+  }
+
+  header .bottom{
+    margin-top:0px;
+    height:80px;
+    width: 410px;
+  }
+
+  header .bottom #inscription{
+    display:flex;
+    align-items:flex-end;
+    margin-left: 30px;
+    margin-top: 0px;
+  }
+
+  header .top #inscription{
+    display:none;
+  }
+
+  header .bottom a{
+    margin-bottom: 5px;
+  }
+
+
+  header .bottom #logements_link, header .bottom #activities_link {
+    align-items: flex-end;
+    height:auto;
+    border-top: 2.5px solid #f2f2f2;
+    border-bottom:0;
+}
+
+
 }

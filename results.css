@@ -16,6 +16,7 @@
     align-items:center;
     justify-content:space-between;
     margin-bottom:25px;
+    padding: 0;
 }
 
 .results header h2{
