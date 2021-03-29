@@ -3,7 +3,7 @@ footer{
     padding-top: 50px;
     padding-left: 30px;
     padding-bottom: 50px;
-    padding-right: 365px;
+    
 }
 
 footer .category{
@@ -32,16 +32,12 @@ footer a{
     margin-bottom:20px;
 }
 
-@media all and (min-width: 1440px){
-
-    footer{
-    padding-top: 50px;
-    padding-left: 50px;
-    padding-bottom: 54px;
+@media all and (min-width: 768px){
+     
+footer{
+    padding-right: 30px;
     display: flex;
-   align-items: center;
-   justify-content:space-between;
-
+   justify-content:space-around;
 }
 
 footer #assistance{
@@ -50,6 +46,20 @@ footer #assistance{
 
 footer #hebergements{
     margin-top:0px;
+}
+}
+
+
+@media all and (min-width: 1440px){
+
+    footer{
+    padding-top: 50px;
+    padding-left: 50px;
+    padding-bottom: 54px;
+    padding-right: 365px;
+   align-items: center;
+   justify-content:space-between;
+
 }
 
 

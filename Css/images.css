@@ -1,0 +1,92 @@
+.results .image{
+        background-size: cover;
+    background-position: 50%;
+    background-repeat: no-repeat;
+} 
+
+.results #logements .image{
+    height: 115px;
+    width: 100%;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+}
+
+.results #popular .image{
+    width: 128px;
+    height: 100%;
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
+    margin-right: 20px;
+}
+
+.results #activities .image{
+    height: 134px;
+    width: 100%;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    background-position: 50% 25%;
+}
+
+#vieuxPort_img{background-image: url('../images/activites/4_small/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg');}
+.results #activities .card #fortPomegues_img{
+    background-image: url('../images/activites/3_medium/paul-hermann-QFTrLdQIRhI-unsplash.jpg');
+ background-position: 50%;}
+#ilesFrioul_img{background-image: url('../images/activites/4_small/kevin-hikari-rV_Qd1l-VXg-unsplash.jpg');}
+#parcCalangues_img{background-image: url('../images/activites/4_small/kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg');}
+#notreDame_img{background-image: url('../images/activites/4_small/florian-wehde-xW9e8gdotxI-unsplash.jpg');}
+#parcLongchamp_img{background-image: url('../images/activites/4_small/lena-paulin-wH2-EJoDcV0-unsplash.jpg');}
+
+#soleilMatin_img{background-image: url('../images/hebergements/4_small/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg');}
+#coeurEau_img{background-image: url('../images/hebergements/4_small/aw-creative-VGs8z60yT2c-unsplash.jpg');}
+#bleuBlanc_img{background-image: url('../images/hebergements/4_small/febrian-zakaria-sjvU0THccQA-unsplash.jpg');}
+
+#cannebiere_img{ background-image: url('../images/hebergements/4_small/marcus-loke-WQJvWU_HZFo-unsplash.jpg');}
+#port_img{ background-image: url('../images/hebergements/4_small/fred-kleber-gTbaxaVLvsg-unsplash.jpg');}
+#mouettes_img{ background-image: url('../images/hebergements/4_small/reisetopia-B8WIgxA_PFU-unsplash.jpg');}
+#mer_img{ background-image: url('../images/hebergements/4_small/annie-spratt-Eg1qcIitAuA-unsplash.jpg');}
+#panier_img{ background-image: url('../images/hebergements/4_small/nicate-lee-kT-ZyaiwBe0-unsplash.jpg');}
+#amina_img{ background-image: url('../images/hebergements/4_small/febrian-zakaria-M6S1WvfW68A-unsplash.jpg');}
+
+
+@media all and (min-width: 768px){
+    .results #popular .image{
+    width: 100%;
+    height: 115px;
+    border-bottom-left-radius: 0;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+}
+
+}
+
+@media all and (min-width: 1024px){
+
+.results #activities .image {
+    height: 70.6%;
+}
+
+
+}
+
+@media all and (min-width: 1440px){
+
+    .results #popular .image{
+    width: 128px;
+    height: 100%;
+    border-top-right-radius: 0;
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
+    margin-right: 20px;
+}
+
+#vieuxPort_img{background-image: url('../images/activites/3_medium/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg');}
+#parcCalangues_img{background-image: url('../images/activites/3_medium/kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg');}
+
+
+    .results #activities #parcCalangues_img{height: 388px;}
+     .results #activities #vieuxPort_img{height: 388px;}
+     .results #activities #ilesFrioul_img{height: 109px;}
+     .results #activities #fortPomegues_img{height: 180px;}
+     .results #activities #notreDame_img{height: 140px;}
+     .results #activities #parcLongchamp_img{height: 153px;}
+}

@@ -19,7 +19,7 @@ header .bottom {
   margin-top: 14px;
 }
 
-header .bottom #inscription{
+header .bottom .inscription{
   display:none;
 }
 
@@ -44,7 +44,7 @@ header a {
   color: #0065fc;
 }
 
-header #inscription {
+header .inscription {
   font-weight: bold;
   font-size: 15px;
   margin-top: 10px;
@@ -73,14 +73,14 @@ header .top img {
     width: 410px;
   }
 
-  header .bottom #inscription{
+  header .bottom .inscription{
     display:flex;
     align-items:flex-end;
     margin-left: 30px;
     margin-top: 0px;
   }
 
-  header .top #inscription{
+  header .top .inscription{
     display:none;
   }
 

@@ -1,5 +1,10 @@
 @import 'images.css';
 
+.results{ 
+    display:flex;
+    flex-direction: column;
+}
+
 .results .result{
     padding: 42px 20px 27px 20px;
 }
@@ -131,6 +136,8 @@ box-shadow:0px 0px 6px 3px #f5f5f5 ;
     font-size:18px;
     font-weight:bold;
     margin-top:35px;
+    border:none;
+    background-color:transparent;
 }
 
 .results #activities{
@@ -157,11 +164,132 @@ box-shadow:0px 0px 6px 3px #f5f5f5 ;
     font-size:16px;
 }
 
+@media all and (max-width: 375px){
+    .results .card{
+   width: 89.9vw;
+}
 
+
+}
+
+@media all and (min-width: 480px){
+        .results .cards{
+   align-items: center;
+}
+
+
+
+}
+
+@media all and (min-width: 768px){
+
+    .results .result{
+        border-radius: 20px;
+    }
+
+    .results #popular{
+        width:95%;
+        align-self: center;
+    }
+
+    .results #popular .cards{
+        display: flex;
+        flex-direction: row;
+        justify-content:space-between;
+    }
+
+      .results #popular .cards .card{
+        display: flex;
+      flex-direction: column;
+        width: 216px;
+        height: 240px;
+  }
+
+  .results #popular .card .description {
+    width: 100%;
+    margin-left: 11px;
+}
+
+.results #popular .card .description h3{
+        margin-top: 11px;
+    margin-bottom: 11px;
+}
+
+.results #popular .card .description p{
+    margin-bottom:11px;
+}
+
+.results #popular #soleilMatin .description h3, .results #popular #bleuBlanc .description h3{
+    margin-bottom:32px;
+}
+
+.results #logements .cards{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.results #logements  .card{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.results #activities{
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.results #activities .cards{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content:center;
+}
+
+.results #activities .card{
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.results #activities .bloc_Card{
+    order: 1;
+}
+
+} 
+
+@media all and (min-width: 1024px){
+
+     .results #popular{
+        width:995px;
+        align-self: center;
+    }
+
+      .results #popular .cards .card{
+        display: flex;
+      flex-direction: column;
+        width: 300px;
+        height: 210px;
+  }
+
+  .results #popular #soleilMatin .description h3, .results #popular #bleuBlanc .description h3{
+    margin-bottom: 11px;
+}
+
+.results #logements  .card{
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.results #activities .card {
+    height: 18.56vw;
+    width:32.72vw;
+
+}
 
 @media all and (min-width: 1440px){
   .results{
-      display:flex;
+      flex-direction: row;
       flex-wrap: wrap;
       padding-right: 50px;
       padding-left: 50px;
@@ -170,6 +298,10 @@ box-shadow:0px 0px 6px 3px #f5f5f5 ;
 
   .results .result{
       border-radius: 20px;
+  }
+
+  .results .cards{
+      align-items:normal;
   }
 
   .results #popular{
@@ -182,10 +314,31 @@ box-shadow:0px 0px 6px 3px #f5f5f5 ;
       margin-bottom: 25px;
   }
 
+    .results #popular .cards{
+        display: flex;
+        flex-direction: column;
+    }
+
+
    .results #popular .cards .card{
       width: 343px;
+      height: 155px;
+      flex-direction:row;
       margin-bottom: 32px;
   }
+
+  .results #popular .card .description{
+  width: 150px;
+}
+
+.results #popular #soleilMatin .description h3, .results #popular #bleuBlanc .description h3{
+    margin-bottom:11px;
+}
+
+
+.results #popular .card .description p{
+    margin-bottom: 44px;
+}
 
    .results #logements{
       order: 1;
@@ -202,6 +355,8 @@ box-shadow:0px 0px 6px 3px #f5f5f5 ;
 
    .results #logements .cards .card{
       width: 246px;
+      margin-right: 0;
+      margin-left: 0;
       margin-bottom: 28px;
   }
 
@@ -224,6 +379,7 @@ box-shadow:0px 0px 6px 3px #f5f5f5 ;
 
   .results #activities .bloc_Card {
       justify-content:space-between;
+      order: 0;
   }
 
    .results #activities .cards{
@@ -234,6 +390,8 @@ box-shadow:0px 0px 6px 3px #f5f5f5 ;
 
    .results #activities .cards .card{
       width:302px;
+      margin-right: 0px;
+      margin-left: 0px;
   }
 
    .results #activities .cards #vieuxPort, .results #activities .cards #parcCalangues{
@@ -244,6 +402,5 @@ box-shadow:0px 0px 6px 3px #f5f5f5 ;
   .results #activities .cards #ilesFrioul{  height: 163px; }
   .results #activities .cards #notreDame{  height: 194px; }
   .results #activities .cards #parcLongchamp{  height: 208px; }
-
 
 }
