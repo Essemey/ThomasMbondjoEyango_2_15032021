@@ -3,16 +3,13 @@ header {
   flex-direction: column;
 }
 
-header .top {
+header h1 {
   display: flex;
-  align-items: center;
-  padding: 20px 20px 0px 20px;
-  justify-content: space-between;
-}
-
-header .top h1{
+  margin-left: 20px;
+  margin-top: 20px;
   height: 46.39px;
 }
+
 
 header .bottom {
   display: flex;
@@ -20,7 +17,11 @@ header .bottom {
 }
 
 header .bottom .inscription{
-  display:none;
+  position: absolute;
+  top: 39px;
+  right: 20px;
+    font-weight: bold;
+  font-size: 15px;
 }
 
 header .bottom #logements_link, header .bottom #activities_link {
@@ -44,13 +45,7 @@ header a {
   color: #0065fc;
 }
 
-header .inscription {
-  font-weight: bold;
-  font-size: 15px;
-  margin-top: 10px;
-}
-
-header .top img {
+header h1 img {
   width: 100px;
 }
 
@@ -62,8 +57,9 @@ header .top img {
     justify-content:space-between;
   }
 
-  header .top{
-    padding: 0;
+  header h1{
+    margin: 0;
+    height:80px;
     align-items:flex-end;
   }
 
@@ -75,13 +71,10 @@ header .top img {
 
   header .bottom .inscription{
     display:flex;
+    position: static;
     align-items:flex-end;
     margin-left: 30px;
     margin-top: 0px;
-  }
-
-  header .top .inscription{
-    display:none;
   }
 
   header .bottom a{
